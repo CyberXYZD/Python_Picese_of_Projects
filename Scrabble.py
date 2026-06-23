@@ -37,7 +37,13 @@ while game_play:
             game_play = True
             again = False
 
-        else:
-            print("Thanks for playing!")
+        elif play_more == "n":
+            print("Thank you for playing!")
             again = False
+
+
+        else:
+            print("Invalid")
+            again = True
+
 
